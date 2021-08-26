@@ -1,0 +1,73 @@
+ /* Carousel styling */
+ #introCarousel,
+ .carousel-inner,
+ .carousel-item,
+ .carousel-item.active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('../img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+/* Style */
+
+.buttonClear{
+    background-color: transparent;
+    border: none;
+}
+
+/* Menu */
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+    padding: 2px;
+}
+
+#secondNav{
+    position: sticky !important;
+    top: 10 !important;
+    background: linear-gradient(0.25turn, #3f87a6, #df465f, #000268);
+    opacity: 0;
+}
+
+.logoMenu{
+    filter: invert(1);
+    width: 50px;
+}
+
+/* Quem somos */
+
+.espaco{
+    width: 100%;
+    height: 100px;
+}
